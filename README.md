@@ -7,6 +7,6 @@ A logarithmic access time key : value pair system using binary search tree
 ```console
 $ gcc -o output main.c
 $ ./output
-$ dot -Tsvg keyval_tree.dot file.svg
+$ dot -Tsvg keyval_tree.dot > file.svg
 ```
 - this `file.svg` can be opened with any browser
